@@ -7,9 +7,9 @@ const Books =(props)=>{
  const {books} = props;
     
  const booksInfo = books.map(book=> <Book key={book.id} book={book}/>);
-    return <main>
+    return <section>
         {booksInfo}
-    </main>
+    </section>
 }
 
 export default Books;

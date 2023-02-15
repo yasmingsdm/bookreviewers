@@ -4,6 +4,8 @@ import { v4 as uuidv4 } from 'uuid';
 import Books from "./components/Books";
 import Footer from "./components/Footer";
 import Header from "./components/Header";
+import ButtonBook from "./components/ButtonBook";
+import "./App.css"
 
 const App = ()=>{
 
@@ -38,7 +40,10 @@ const App = ()=>{
 
     return <div>
         <Header />
-        <Books books={books} />
+        <main>
+            <Books books={books} />
+            <ButtonBook />
+        </main>
         <Footer />
     </div>
 }

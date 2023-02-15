@@ -1,8 +1,5 @@
-main{
-    background-color: #392620DD;
-    color: bisque;
+section{
     display: grid;
     grid-template-columns: repeat(3,1fr);
     gap: 10px;
-    min-height: 80vh;
 }
