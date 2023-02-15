@@ -1,0 +1,13 @@
+footer{
+    background-color: bisque;
+    color: #392620;
+    min-height: 10vh;
+}
+
+a{
+    color: #2F4F4F;
+}
+
+a:hover{
+    color: teal;
+}
